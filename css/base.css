@@ -103,14 +103,14 @@ article{
         top:30%;
         left:50%;
         margin:0 0 0 -350px;
-        width:700px;
+        width:620px;
         text-align:center;
         text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
         line-height:1.1;
     }
 
     #section-1 h1{
-        font-size:120px;
+        font-size:95px;
         background-image: url(http://bradjasper.com/subtle-patterns-bookmarklet/patterns/squairy_light.png);
         background-size: auto;
         background-repeat: repeat repeat;
@@ -119,7 +119,8 @@ article{
     #section-1 h2{
         text-transform:capitalize;
         opacity:.75;
-        font-size:48px;
+        font-size:35px;
+        padding-top: 10px;
     }
 
 /* Section 2 */
