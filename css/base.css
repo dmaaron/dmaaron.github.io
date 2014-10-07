@@ -160,6 +160,15 @@ article{
     background-repeat: repeat repeat;
     
 }
+
+    #section-3 h2 {
+        text-transform:capitalize;
+        opacity:.85;
+        font-size:35px;
+        padding-top: 10px;
+        line-height:1.3;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+    }
     #section-3 .photos{
         padding:50px 0;
         width:620px;
@@ -234,7 +243,8 @@ article{
         }
     .social-icons {
         margin-top: 35px;
-}
+    }
+
 
 #section-5 {
     background: #FFF url(../img/bedge_grunge.png) 50% 0 no-repeat;
