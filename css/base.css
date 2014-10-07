@@ -132,6 +132,9 @@ article{
         #section-2 h4 {
             font-size: 250px;
         }
+        #section-3 .photos-inner {
+            margin-left: 100px;
+        }
     }
 
 /* Section 2 */
