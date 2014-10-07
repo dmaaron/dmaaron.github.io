@@ -122,16 +122,18 @@ article{
         font-size:35px;
         padding-top: 10px;
     }
-
- @media only screen and (max-device-width: 480px) {
-        #section-1 h1 {
-            font-size:140%;
+@media (max-width: 480px) {
+        #section-1 h1{
+            font-size:140px;
+        }
+        #section-1 h2{
+            font-size:100px;
         }
     }
 
 /* Section 2 */
-#section-2{
-}
+/*#section-2{
+}*/
 
 
 /* Section 3 */
