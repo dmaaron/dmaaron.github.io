@@ -124,16 +124,16 @@ article{
     }
 @media only screen and (max-device-width: 480px) {
         #section-1 h1{
-            font-size:140px;
+            font-size:120px;
         }
         #section-1 h2{
-            font-size:100px;
+            font-size:90px;
         }
         #section-1 h3{
-            font-size:100px;
+            font-size:90px;
         }
         #section-2 h4 {
-            font-size: 100px;
+            font-size: 90px;
         }
         #section-3 .photos-inner {
             margin-left: -50px;
