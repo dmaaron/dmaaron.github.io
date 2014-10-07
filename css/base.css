@@ -64,8 +64,6 @@ article{
 
 .align-center{text-align: center;}
 
-
-
 /* Sliding panels */
 .curtains>li {
     background:#FFF url(../img/blizzard.png);
@@ -122,7 +120,8 @@ article{
         font-size:35px;
         padding-top: 10px;
     }
-@media only screen and (max-device-width: 480px) {
+/*@media only screen and (max-device-width: 480px) {*/
+    @media (max-width: 480px) {
         #section-1 h1{
             font-size:120px;
         }
@@ -138,10 +137,13 @@ article{
         #section-2 h4 {
             font-size: 50px;
         }
-        .photos .photos-inner {
-            margin-left: -50px;
+        #section-3 .photos {
+            margin-left: 0px;
         }
-        .photos h4 {
+        #section-3 .photo-inner {
+            margin-left: 0px;
+        }
+        #section-3 .photos h4 {
             text-indent: -9999px;
         }
     }
@@ -177,7 +179,7 @@ article{
             width:400px;
         }
 
-        #section-3  .photos-inner img{
+        #section-3 .photos-inner img{
             display:block;
             margin:0 0 4em 0;
             max-width:100%;
@@ -186,6 +188,11 @@ article{
             padding: 14px 14px 25px 14px; 
             box-shadow: 0 1px 3px rgba(0,0,0,.2), 0 1px 0 rgba(0,0,0,.1); 
         }
+
+.about-me-text {
+    font-size: 18px;
+}
+
 #section-4{
 
 }   
