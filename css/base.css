@@ -133,13 +133,16 @@ article{
             font-size:70px;
         }
         #section-1 h3{
-            font-size:20px;
+            font-size:30px;
         }
         #section-2 h4 {
             font-size: 50px;
         }
         #section-3 .photos-inner {
             margin-left: -50px;
+        }
+        #section-4 h4 {
+            text-indent: -9999px;
         }
     }
 
