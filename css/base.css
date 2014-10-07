@@ -126,11 +126,14 @@ article{
         #section-1 h1{
             font-size:120px;
         }
+        #section-1 header {
+            width: 650px;
+        }
         #section-1 h2{
             font-size:70px;
         }
         #section-1 h3{
-            font-size:50px;
+            font-size:20px;
         }
         #section-2 h4 {
             font-size: 50px;
