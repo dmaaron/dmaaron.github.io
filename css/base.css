@@ -293,8 +293,8 @@ article{
     z-index: 1;
 }
 
-@media only screen and (max-device-width: 480px) {
-/*    @media (max-width: 480px) {*/
+/*@media only screen and (max-device-width: 480px) {*/
+    @media (max-width: 480px) {
         #section-1 h1{
             font-size:120px;
         }
@@ -311,10 +311,10 @@ article{
             font-size: 50px;
         }
         #section-3 .photos {
-            margin-left: 0;
+            margin: 0 auto;
         }
         #section-3 .photos .photos-inner {
-           margin-left: 0px;
+           margin: 0 auto;
         }
         #section-3 .photos h2 {
             text-indent: -9999px;
@@ -328,6 +328,7 @@ article{
         #section-4 .photos-inner img {
             margin: 0 auto 20px auto;
             float: none;
+            width: 300px;
         }
         #section-4 h4:first-child {
             font-size:40px;
@@ -339,9 +340,9 @@ article{
             text-align: center;
         }
         #section-5 h4 {
-            font-size: 40px;
+            font-size: 80px;
         }
         #section-5 .social-icons img {
-            width: 60px;
+            width: 80px;
         }
     }
