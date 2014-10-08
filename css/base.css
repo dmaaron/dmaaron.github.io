@@ -340,6 +340,7 @@ article{
         }
         #section-4 .image-caption {
             text-align: center;
+            width: auto;
         }
         #section-5 h4 {
             font-size: 60px;
