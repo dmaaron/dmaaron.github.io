@@ -211,9 +211,6 @@ article{
         .image-caption {
             width:525px;
         }
-        .image-caption p {
-            display:inline;
-        }
     .social-icons {
         margin-top: 35px;
     }
@@ -293,8 +290,8 @@ article{
     z-index: 1;
 }
 
-@media only screen and (max-device-width: 480px) {
-    /*@media (max-width: 800px) {*/
+/*@media only screen and (max-device-width: 480px) {*/
+    @media (max-width: 800px) {
         #section-1 h1{
             font-size:120px;
         }
@@ -315,6 +312,7 @@ article{
         }
         #section-3 .photos .photos-inner {
            margin: 0 auto;
+           width: auto;
         }
         #section-3 .photos h2 {
             text-indent: -9999px;
@@ -341,6 +339,9 @@ article{
         #section-4 .image-caption {
             text-align: center;
             width: auto;
+        }
+        #section-4 .image-caption p {
+            margin: 0 20px 0 20px;
         }
         #section-5 h4 {
             font-size: 60px;
