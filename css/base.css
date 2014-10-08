@@ -133,7 +133,14 @@ article{
     background-repeat: repeat repeat;
     
 }
-
+    #section-3 h4 {
+        position: absolute;
+        left: -999px;
+    }
+    #section-3 hr {
+        position: absolute;
+        left: -999px;
+    }
     #section-3 h2 {
         text-transform:capitalize;
         opacity:.85;
@@ -317,6 +324,15 @@ article{
         #section-3 .photos h2 {
             text-indent: -9999px;
         }
+        #section-3 h4 {
+            position: static;
+            text-align: center;
+            font-size: 60px;
+        }
+        #section-3 hr {
+            position: static;
+            text-align: center;
+    }
         #section-4 .photos {
             margin: 0 auto;
             width: auto;
@@ -342,6 +358,7 @@ article{
         }
         #section-4 .image-caption p {
             margin: 0 20px 0 20px;
+            font-size: 50px;
         }
         #section-5 h4 {
             font-size: 60px;
