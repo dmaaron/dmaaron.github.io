@@ -171,7 +171,7 @@ article{
             box-shadow: 0 1px 3px rgba(0,0,0,.2), 0 1px 0 rgba(0,0,0,.1); 
         }
 
-.about-me-text {
+.image-caption p {
     font-size: 18px;
 }
 
@@ -293,8 +293,8 @@ article{
     z-index: 1;
 }
 
-@media only screen and (max-device-width: 480px) {
-    /*@media (max-width: 480px) {*/
+/*@media only screen and (max-device-width: 480px) {*/
+    @media (max-width: 800px) {
         #section-1 h1{
             font-size:120px;
         }
