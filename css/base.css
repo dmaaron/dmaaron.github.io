@@ -121,32 +121,6 @@ article{
         padding-top: 10px;
     }
 /*@media only screen and (max-device-width: 480px) {*/
-    @media (max-width: 480px) {
-        #section-1 h1{
-            font-size:120px;
-        }
-        #section-1 header {
-            width: 650px;
-        }
-        #section-1 h2{
-            font-size:70px;
-        }
-        #section-1 h3{
-            font-size:30px;
-        }
-        #section-2 h4 {
-            font-size: 50px;
-        }
-        #section-3 .photos {
-            margin-left: 0px;
-        }
-        #section-3 .photo-inner {
-            margin-left: 0px;
-        }
-        #section-3 .photos h4 {
-            text-indent: -9999px;
-        }
-    }
 
 /* Section 2 */
 /*#section-2{
@@ -320,3 +294,54 @@ article{
     z-index: 1;
 }
 
+    @media (max-width: 480px) {
+        #section-1 h1{
+            font-size:120px;
+        }
+        #section-1 header {
+            width: 650px;
+        }
+        #section-1 h2{
+            font-size:70px;
+        }
+        #section-1 h3{
+            font-size:30px;
+        }
+        #section-2 h4 {
+            font-size: 50px;
+        }
+        #section-3 .photos {
+            margin-left: 0;
+        }
+        #section-3 .photos .photos-inner {
+           margin-left: 0px;
+        }
+        #section-3 .photos h2 {
+            text-indent: -9999px;
+        }
+        #section-4 .photos {
+            margin: 0 auto;
+        }
+        #section-4 .photos-inner {
+            margin: 0 auto;
+        }
+        #section-4 .photos-inner img {
+            margin: 0 auto 20px auto;
+            float: none;
+        }
+        #section-4 h4:first-child {
+            font-size:40px;
+        }
+        #section-4 .about-me-text {
+            font-size: 30px;
+        }
+        #section-4 .image-caption {
+            text-align: center;
+        }
+        #section-5 h4 {
+            font-size: 40px;
+        }
+        #section-5 .social-icons img {
+            width: 60px;
+        }
+    }
